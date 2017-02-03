@@ -53,7 +53,7 @@ Where I feel Inspec shines is:
 
 ## Where can it be better?
 
-I wish there would be a dashboard, where the policies and failures are displayed. Also,
+I wish there would be a dashboard, where the policies and failures are displayed. 
 
 
 [Inspec]: http://inspec.io/
