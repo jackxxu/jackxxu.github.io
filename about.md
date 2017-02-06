@@ -11,3 +11,5 @@ I love the art of crafting readable and maintainable code. I believe the code sa
 For the past few years, I have worked a lot in the world of Service-Oriented Architecture (SOA) or MicroServices Architecture. I find it very challenging and at the same time decidedly rewarding to resolve the problems working with these types of software systems.
 
 I have also been working with functional programming languages, such as Elixir and Scala, and Clojure.
+
+Any questions/suggestions: I can be reached at jackxxu at gmail.
