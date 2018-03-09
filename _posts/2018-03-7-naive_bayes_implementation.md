@@ -62,7 +62,7 @@ predictions = nb.fit(train, target).predict(test) #=> [1, 0]
 ### Model Persistence
 
 ```ruby
-NaiveBayesRb::NaiveBayes.serializer =       
+NaiveBayesRb::NaiveBayes.serializer = NaiveBayesRb::MarshalSerializer
 nb = NaiveBayesRb::NaiveBayes.new
 nb.fit(train, target).save('model.pb')
 ```
@@ -70,7 +70,7 @@ nb.fit(train, target).save('model.pb')
 ### Loading Persisted Model
 
 ```ruby
-NaiveBayesRb::NaiveBayes.serializer =       
+NaiveBayesRb::NaiveBayes.serializer = NaiveBayesRb::MarshalSerializer
 nb = NaiveBayesRb::NaiveBayes.load('model.pb')
 ```
 
